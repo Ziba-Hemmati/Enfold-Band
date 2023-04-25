@@ -53,6 +53,8 @@ input[type="submit"] {
   --color-secondary: #eee;
   --color-gray: #aaa;
   --color-dark-gray: #808080;
+  --color-header-icon: #616161;
+  --color-header-border: #424242;
   --color-primary-red: #d63e2d;
   --color-secondary-red: #b02b2c;
   --color-border-red: #8b2121;

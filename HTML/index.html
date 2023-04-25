@@ -8,10 +8,55 @@
     <title>Enfold-Band</title>
     <link rel="shortcut icon" href="../Assets/Images/favicon.jpg">
     <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    
+    <header class="header-container" id="header-container">
+        <div class="header-items">
+            <img class="header-logo" src="../Assets/Images/logo.jpg" alt="logo">
+            <div class="header-mobile-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <div>
+                            <li><a class="menu__item" href="#">Home</a></li>
+                            <li><a class="menu__item" href="#">Live</a></li>
+                            <li><a class="menu__item" href="#">Albums</a></li>
+                            <li><a class="menu__item" href="#">About</a></li>
+                            <li><a class="menu__item" href="#">News</a></li>
+                            <li><a class="menu__item" href="#">Bookings</a></li>
+                            <li><a class="menu__item" href="#">Band Store</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-list">
+                <ul class="header-list">
+                    <li>Home</li>
+                    <li>Live</li>
+                    <li>Albums</li>
+                    <li>About</li>
+                    <li>News</li>
+                    <li>Bookings</li>
+                    <li class="header-last-item">BandStore</li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-icons-container">
+            <i class="fa-brands fa-twitter header-icon"></i>
+            <i class="fa-brands fa-facebook-f header-icon"></i>
+            <i class="fa-brands fa-soundcloud header-icon"></i>
+        </div>
+    </header>
+    <script src="../JS/header.js"></script>
 </body>
 
 </html>
